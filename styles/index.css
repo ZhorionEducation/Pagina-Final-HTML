@@ -1,0 +1,148 @@
+/* seccion de aterrizaje foto del iphone 17 */
+
+#aterrizaje {
+    width: 100%;
+    height: 95vh;
+}
+
+.textoAterrizaje {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.textoAterrizaje h1 {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 2.05;
+}
+
+.textoAterrizaje h2 {
+    font-family: "SF Pro Text", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.52;
+    margin-top: 1rem;
+}
+
+.buttonAterrizaje .btn {
+    transform: translate(-50%, -50%);
+    font-family: "SF Pro Text", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 1s ease;
+}
+
+.buttonAterrizaje .comprar {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 0.75rem 2rem;
+}
+
+.buttonAterrizaje .informacion {
+    position: absolute;
+    top: 40%;
+    left: 54%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 0.75rem 2rem;
+}
+
+.buttonAterrizaje .comprar:hover {
+    background-color: #868181;
+    color: black;
+}
+
+.buttonAterrizaje .informacion:hover {
+    background-color: white;
+    color: black;
+}
+
+/* fin de seccion de aterrizaje de la imagen del iphone*/
+
+.textoiPhone h1 {
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.textoiPhone p {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "SF Pro Text", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.buttonComprariPhone .btn{
+    font-family: "SF Pro Text", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 1s ease;
+}
+
+.buttonComprariPhone .comprar{
+    position: absolute;
+    top: 125%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: #177bda;
+    color: white;
+    padding: 0.75rem 2rem;
+}
+
+.buttonComprariPhone .informacion{
+    position: absolute;
+    top: 125%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: blue;
+    padding: 0.75rem 2rem;
+    border-color: blue;
+}
+
+.buttonComprariPhone .comprar:hover{
+    background-color: #0e5aa7;
+    color: white;
+}
+.buttonComprariPhone .informacion:hover{
+    background-color: blue;
+    color: white;
+}
+
+#iPhoneFamily {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+}
+
+
+@media (max-width: 1200px) {
+    .buttonAterrizaje .comprar{
+        top: 40%;
+        left: 43%;
+    }
+
+    .buttonAterrizaje .informacion{
+        top: 40%;
+        left: 57%;
+    }
+
+}

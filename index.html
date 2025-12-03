@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mango</title>
+    <title>Manzana Mordida</title>
+    <link rel="shortcut icon" href="/img/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <!-- CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="./styles/navGlobal.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+    <!-- navbar parecido al de apple, se usara en todas los html -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-blur-dark pb-0">
             <div class="container-fluid justify-content-center">
@@ -17,42 +22,53 @@
                     <li class="nav-item">
                         <a class="nav-apple nav-link text-white" href="index.html"><i class="fa-brands fa-apple"></i></a>
                     </li>
+                    <!-- listas con sus respectivos dropdowns -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Mac</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Ver todos los modelos de Mac</a></li>
+                            <li><a class="dropdown-item" href="#">Soporte para el Mac</a></li>
+                            <li><a class="dropdown-item" href="#">Educación</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">iPad</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#">Ver todos los modelos de iPad</a></li>
+                            <li><a class="dropdown-item" href="#">Soporte para el iPad</a></li>
+                            <li><a class="dropdown-item" href="#">Educación</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">iPhone</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">iPhone</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ver todos los modelos de iPhone</a></li>
+                            <li><a class="dropdown-item" href="#">Soporte para el iPhone</a></li>
+                            <li><a class="dropdown-item" href="#">Apple Pay</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Watch</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Watch</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Jairo ya me canse</a></li>
+                            <li><a class="dropdown-item" href="#">Jairo ya me canse</a></li>
+                            <li><a class="dropdown-item" href="#">Jairo ya me canse</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">AirPods</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">AirPods</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">TV y Casa</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">TV y Casa</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Entretenimiento</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Entretenimiento</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Soporte</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Soporte</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Dónde Comprar</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Dónde Comprar</a>
                     </li>
                     <div class="mt-1">
                         <form class="d-flex" role="search" action="">
@@ -64,6 +80,36 @@
             </div>
         </nav>
     </header>
+    <!-- contenido principal de la pagina -->
+    <main class="container-fluid p-0 m-0">
+        <div class="container-fluid p-0 m-0">
+            <img id="aterrizaje" src="/img/aterrizajeIphone.jpg" alt="iphone17">
+        </div>
+        <div class="textoAterrizaje container text-center">
+            <h1>Diseñado para cada estudiante</h1>
+            <h2>El iPhone 17 es el compañero <br>perfecto para el aprendizaje y la creatividad.</h2>
+        </div>
+        <div class="buttonAterrizaje container text-center my-5">
+            <a href="#" class="btn comprar btn-lg">Comprar</a>
+            <a href="#" class="btn informacion btn-lg">Más información</a>
+        </div>
+        <section class="container-fluid my-5">
+            <div class="container-fluid p-0 m-0">
+                <img id="iPhoneFamily" src="/img/iphoneFamily.jpg" alt="iPhone Family">
+            </div>
+            <div class="textoiPhone text-center">
+                <h1>iPhone</h1>
+                <p>Dile hola a la nueva generación de iPhone.</p>
+            </div>
+            <div class="buttonComprariPhone text-center">
+                <a href="#" class="btn comprar btn-lg">Mas información</a>
+                <a href="#" class="btn informacion btn-lg">Comprar el iPhone</a>
+            </div>
+            
+
+        </section>
+
+    </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
