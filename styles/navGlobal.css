@@ -1,0 +1,20 @@
+.navbar-blur-dark {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.86) !important;
+}
+nav {
+    font-size: 0.7rem;
+}
+
+nav .nav-apple {
+    font-size: 1rem;
+}
+
+nav .nav-link {
+    color: #cecaca;
+    transition: all 0.3s ease;
+}
+
+nav .nav-link:focus, .nav-link:active, .nav-link:hover {
+    color: #ffffff !important;
+}
