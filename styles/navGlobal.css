@@ -5,6 +5,7 @@
 nav {
     font-family: "SF Pro Text", sans-serif;
     font-size: 0.7rem;
+    z-index: 1000;
 }
 
 nav .nav-apple {
@@ -18,4 +19,5 @@ nav .nav-link {
 
 nav .nav-link:focus, .nav-link:active, .nav-link:hover {
     color: #ffffff !important;
+    
 }
