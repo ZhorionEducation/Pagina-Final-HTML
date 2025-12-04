@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="./styles/navGlobal.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
     <!-- navbar parecido al de apple, se usara en todas los html -->
@@ -117,9 +118,9 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Ahora con los superpoderes del chip M3</h5>
                         </div>
-                        <div class="card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
-                            <a href="#" class="btn btn-link">Más información</a>
-                            <a href="#" class="btn btn-link">Comprar</a>
+                        <div class="cardbtn card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
+                            <a href="#" class="btn infoProduct btn-link">Más información</a>
+                            <a href="#" class="btn comprarProduct btn-link">Comprar</a>
                         </div>
                         <img src="/img/ipadairrecortada.jpg" class="imgair card-img-top overflow-hidden" alt="iPad Pro">
                     </div>
@@ -130,41 +131,132 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Una gran forma de cuidar tu salud</h5>
                         </div>
-                        <div class="card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
-                            <a href="#" class="btn btn-link">Más información</a>
-                            <a href="#" class="btn btn-link">Comprar</a>
+                        <div class="cardbtn card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
+                            <a href="#" class="btn infoProduct btn-link">Más información</a>
+                            <a href="#" class="btn comprarProduct btn-link">Comprar</a>
                         </div>
                         <img src="/img/applewatch.jpg" class="imgair card-img-top overflow-hidden" alt="iPad Pro">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="cardair card border-0 h-100">
-                        <img src="/img/iPadairlogo.png" class="logoair card-img-top p-4" alt="logo iPad Air">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Ahora con los superpoderes del chip M3</h5>
+                    <div class="cardipadpro card border-0 h-100">
+                        <div class="cardproipad card-body text-center">
+                            <h1>iPad Pro</h1>
+                            <h5 class="card-title">Avanzado rendimiento para la IA</h5>
                         </div>
-                        <div class="card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
-                            <a href="#" class="btn btn-link">Más información</a>
-                            <a href="#" class="btn btn-link">Comprar</a>
+                        <div class="cardbtn card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
+                            <a href="#" class="btn infoProduct btn-link">Más información</a>
+                            <a href="#" class="btn comprarProduct btn-link">Comprar</a>
                         </div>
-                        <img src="/img/ipadairrecortada.jpg" class="imgair card-img-top overflow-hidden" alt="iPad Pro">
+                        <img src="/img/ipadpro.jpg" class="imgair card-img-top p-4" alt="logo iPad Pro">
+                        
                     </div>
                 </div>
                 <div class="col">
-                    <div class="cardair card border-0 h-100">
-                        <img src="/img/watchse.png" class="logoair card-img-top p-4" alt="logo Apple Watch SE">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Ahora con los superpoderes del chip M3</h5>
+                    <div class="cardmacbook card border-0 h-100">
+                        <div class="cardbookmac card-body text-center">
+                            <h1>MacBook Air</h1>
+                            <h5 class="card-title">Rendimiento por las nubes con el chip M4</h5>
                         </div>
-                        <div class="card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
-                            <a href="#" class="btn btn-link">Más información</a>
-                            <a href="#" class="btn btn-link">Comprar</a>
+                        <div class="cardbtn card-body text-center border-0 position-absolute bottom-50 w-100 mb-5">
+                            <a href="#" class="btn infoProduct btn-link">Más información</a>
+                            <a href="#" class="btn comprarProduct btn-link">Comprar</a>
                         </div>
-                        <img src="/img/applewatch.jpg" class="imgair card-img-top overflow-hidden" alt="iPad Pro">
+                        <img src="/img/macaair.jpg" class="imgair card-img-top overflow-hidden" alt="MacBook Air">
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- seccion de carrousel con bootstrap -->
+        <section class="container-fluid p-0 m-0">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/familiarCarrusel.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 rounded-3 px-3 py-2 mx-auto">
+                            <h5>Disponible ahora en AppleTV</h5>
+                            <a href="https://tv.apple.com/co">
+                                <button class="btn btn-light my-4">Ver Ahora</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/carrusel2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 rounded-3 px-3 py-2 mx-auto">
+                            <h5>Disponible ahora en AppleTV</h5>
+                            <a href="https://tv.apple.com/co">
+                                <button class="btn btn-light my-4">Ver Ahora</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/carrusel3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-50 rounded-3 px-3 py-2 mx-auto">
+                            <h5>Disponible ahora en AppleTV</h5>
+                            <a href="https://tv.apple.com/co">
+                                <button class="btn btn-light my-4">Ver Ahora</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <footer class="text-black text-center pt-4 ">
+            <section class="container mb-4">
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <h5>Productos</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Mac</a></li>
+                            <li><a href="#">iPad</a></li>
+                            <li><a href="#">iPhone</a></li>
+                            <li><a href="#">Watch</a></li>
+                            <li><a href="#">AirPods</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h5>Soporte</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Estado del sistema</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h5>Comunidad</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Foros de discusión</a></li>
+                            <li><a href="#">Eventos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h5>Acerca de Manzana Mordida</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Politica de privacidad</a></li>
+                            <li><a href="#">Inversionistas</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <hr>
+            <p>&copy; 2025 Manzana Mordida. Todos los derechos reservados.</p>
+
+        </footer>
 
     </main>
     
