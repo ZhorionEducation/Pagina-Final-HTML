@@ -21,3 +21,65 @@ nav .nav-link:focus, .nav-link:active, .nav-link:hover {
     color: #ffffff !important;
     
 }
+
+#menu-toggle{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    nav li:not(.navApple, .listadrop) {
+        display: none;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(30, 30, 30, 0.95);
+    }
+
+    .dropdown-item {
+        color: #cecaca;
+        padding: 0.75rem 1rem;
+        text-align: center;
+    }
+
+    .dropdown-item:hover {
+        background-color: rgba(60, 60, 60, 0.8);
+        color: #ffffff;
+    }
+
+    .mantenimiento {
+        display: none !important;
+    } 
+    
+    .navbar-toggler{
+        border: #cecaca 1px solid;
+        font-size: 1rem;
+        color: #cecaca;
+        background: none;
+    }
+
+    #menu-toggle:checked ~ li:not(.navApple) {
+        display: block;
+        width: 100%;
+        order: 4;
+        text-align: center;
+    }
+
+    
+
+    header:has(#menu-toggle:checked) ~ main {
+        filter: blur(1rem);
+        transition: filter 1s ease;
+    }
+
+
+    
+
+}

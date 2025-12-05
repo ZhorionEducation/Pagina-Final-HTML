@@ -1,0 +1,63 @@
+.apple-modal {
+    border-radius: 22px;
+    background: #fff;
+    border: none;
+    padding: 10px 20px 25px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.apple-modal-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: #f2f2f3;
+    border: none;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 1.1rem;
+    transition: .2s ease;
+}
+
+.apple-modal-close:hover {
+    background: #e5e5e7;
+    transform: scale(1.1);
+}
+
+.compact-box {
+    padding: 18px 20px;
+}
+
+.apple-input {
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: .95rem;
+}
+
+.apple-btn-pagar {
+    height: 50px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    background: #0071e3;
+    border: none;
+}
+
+.apple-btn-pagar:hover {
+    background: #005bb5;
+}
+
+
+.fa-lock {
+    font-size: 2rem;
+    color: #0071e3;
+}
+
+.precio {
+    font-size: 1.4rem;
+    color: #0071e3;
+}

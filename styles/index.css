@@ -279,3 +279,91 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    .textoAterrizaje h1 {
+        padding-top: 2rem;
+        font-weight: 200;
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .textoAterrizaje h2 {
+        font-weight: 100;
+        font-size: 1.2rem;
+        padding-top: 0.5rem;  
+        margin-top: 0;
+        line-height: 0.88;
+    }
+
+    .buttonAterrizaje .comprar{
+        top: 42%;
+        left: 40%;
+        transform: translate(-60%, -50%);
+        padding: 1.3rem 1.5rem;
+    }
+
+    .buttonAterrizaje .informacion{
+        top: 42%;
+        left: 65%;
+        transform: translate(-35%, -50%);
+        padding: 0.5rem 1.5rem;
+    }
+
+    .textoiPhone h1 {
+        top: 110%;
+        font-weight: 200;
+        font-size: 3rem;
+    }
+
+    .textoiPhone p {
+        top: 117%;
+        font-weight: 100;
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+
+    .buttonComprariPhone .comprar{
+        top: 127%;
+        left: 35%;
+        transform: translate(-60%, -50%);
+        padding: 1.3rem 1.5rem;
+        
+    }
+
+    .buttonComprariPhone .informacion{
+        top: 127%;
+        left: 68%;
+        transform: translate(-35%, -50%);
+        padding: 0.5rem 1.5rem;
+        
+    }
+
+    .imgair {
+        height: 330px;
+    }
+
+    .logoair {
+        width: 50%;
+    }
+
+    .carousel-inner img {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        width: 70%;
+        bottom: 0.5rem;
+    }
+
+    .carousel-caption h5 {
+        font-size: 0.875rem;
+    }
+
+    .carousel-caption .btn {
+        padding: 0.25rem 0.75rem;
+        font-size: 0.875rem;
+    }
+
+}
