@@ -369,3 +369,43 @@
     }
 
 }
+
+/* responsive laptop */
+
+@media (min-width: 1024px) {
+
+    .textoAterrizaje {
+        top: 22%;
+    }
+
+    
+
+    .buttonAterrizaje .comprar {
+        top: 42%;
+        left: 43%;
+    }
+
+    .buttonAterrizaje .informacion {
+        top: 42%;
+        left: 55%;
+    }
+    
+
+    .textoiPhone h1 {
+        top: 110%;
+    }
+
+    .textoiPhone p {
+        top: 118%;
+    }
+
+    .buttonComprariPhone .comprar{
+        top: 127%;
+        left: 41%;
+    }
+
+    .buttonComprariPhone .informacion{
+        top: 127%;
+        left: 57%;
+    }
+}
