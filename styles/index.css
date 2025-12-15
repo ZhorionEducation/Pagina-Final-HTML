@@ -5,6 +5,13 @@
     height: 95vh;
 }
 
+#aterrizajeCel {
+    display: none;
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+}
+
 .textoAterrizaje {
     position: absolute;
     top: 20%;
@@ -283,6 +290,13 @@
 }
 
 @media (max-width: 768px) {
+    #aterrizaje {
+        display: none;
+    }
+    #aterrizajeCel {
+        display: block;
+    }
+
     .textoAterrizaje h1 {
         padding-top: 2rem;
         font-weight: 200;
